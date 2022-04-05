@@ -1,0 +1,4 @@
+# Add specifics for plots
+*.png
+*.pdf
+*.svg
