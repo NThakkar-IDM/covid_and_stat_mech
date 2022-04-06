@@ -33,7 +33,7 @@ from scipy.special import erf
 from sklearn.metrics import r2_score
 
 ## Hyper parameters and additional options
-np.random.seed(6)
+np.random.seed(6) ## To align the trajectory bundle
 hp = {"tr_start":"2020-02-29",
 	  "tr_end":"2021-03-26",
 	  "unabated_date":"2020-03-01",
