@@ -331,8 +331,6 @@ def PathogenesisGPR(model,phi,fmu,debug=False):
 	s = (phi.index-phi.index[0]).days.astype(float).values[:-2]
 	s = np.dot(s[:,np.newaxis],np.ones((len(s),1)).T)
 	K = (w/((len(rw_t)+1)))*np.exp(-((s - s.T)**2)/(2.*(D_i**2)))
-	#print((w/((len(rw_t)+1))))
-	#K = 0.002*w*np.exp(-((s - s.T)**2)/(2.*(D_i**2)))
 	
 	## Construct the residual correlation matrix
 	## and use it to solve for the conditional mean and
