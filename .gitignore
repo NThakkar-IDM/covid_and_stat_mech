@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+covid_and_stat_mech.code-workspace

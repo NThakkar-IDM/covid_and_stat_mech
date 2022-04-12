@@ -126,4 +126,4 @@ dependencies:
     - pyqtwebengine==5.12.1
     - requests==2.24.0
     - urllib3==1.25.9
-prefix: C:\ProgramData\Anaconda3\envs\covidx
+prefix: C:\Users\mikefa\Miniconda3\envs\covidx
