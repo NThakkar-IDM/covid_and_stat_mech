@@ -12,7 +12,10 @@ The main scripts are:
 6. `TransmissionForestVis.py`, which makes Figure 5b from the paper.
 7. `ForestStats.py`, which makes Figure 5c from the paper.
 
+## building the Python environment
 The Python environment is managed through [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and described in `environment.yml`.  Within an Anaconda Prompt, type `conda env create python=3.8 -f environment.yml`. This will create an environment named `covidx`. 
+
+If your conda installation is not at the default path or you'd prefer to create it elsewhere, change the `prefix` path in `environment.yml` before running the command above.
 
 If you run into errors with the `Qt` platform plugin when trying to run scripts from the `covidx` environment, such as,
 
