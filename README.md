@@ -12,4 +12,14 @@ The main scripts are:
 6. `TransmissionForestVis.py`, which makes Figure 5b from the paper.
 7. `ForestStats.py`, which makes Figure 5c from the paper.
 
-The Python environment is managed through [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and described in `environment.yml`.
+The Python environment is managed through [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and described in `environment.yml`.  Within an Anaconda Prompt, type `conda env create python=3.8 -f environment.yml`. This will create an environment named `covidx`. 
+
+If you run into errors with the `Qt` platform plugin when trying to run scripts from the `covidx` environment, such as,
+
+```
+qt.qpa.plugin: Could not find the Qt platform plugin "windows" in ""
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+```
+here's the solution that worked for [me](https://github.com/famulare), based on [this issue reply](https://github.com/ContinuumIO/anaconda-issues/issues/1270#issuecomment-287607288):
+
+Copy the content of `[Anaconda directory]\envs\covidx\Library\plugins\platforms` to `[Anaconda directory]\envs\covidx\platforms`. 
