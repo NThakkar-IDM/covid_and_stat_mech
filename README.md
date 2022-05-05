@@ -1,7 +1,7 @@
 # covid_and_stat_mech
 Creating a situational awareness model for SARS-CoV-2 transmission in Washington state (January 2020 to March 2021).
 
-This is a repository of Python 3.8 code associated with the preprint [*COVID-19 epidemiology as emergent behavior on a dynamic transmission forest*](https://arxiv.org/abs/2202.11224fns2), 2022. In the paper, we create a stochastic process model of SARS-CoV-2 transmission, and we use it to estimate a variety of transmission statistics, from population prevalence to the clustering of cases as outbreaks. 
+This is a repository of Python 3.8 code associated with the preprint [*COVID-19 epidemiology as emergent behavior on a dynamic transmission forest*](https://arxiv.org/abs/2205.02150), 2022. In the paper, we create a stochastic process model of SARS-CoV-2 transmission, and we use it to estimate a variety of transmission statistics, from population prevalence to the clustering of cases as outbreaks. 
 
 The main scripts are:
 1. `PathogenesisGPRVis.py`, which makes the paper's first and second figures.
