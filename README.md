@@ -12,6 +12,16 @@ The main scripts are:
 6. `TransmissionForestVis.py`, which makes Figure 5b from the paper.
 7. `ForestStats.py`, which makes Figure 5c from the paper.
 
+## November 2023 update
+We've added to this repository additional code associated with our follow-up preprint *A generating function perspective on the transmission forest*, 2023. In that paper, we use the Washington state model above as an example to illustrate the application of a formal, generating function-based approach to transmission forest calculations.
+
+The main scripts for this second paper are
+1. `generating_functions\SampleTransmissionTrees.py`, which creates a large serialized set of sample trees for method validation.
+2. `generating_functions\SamplingVis.py`, which makes the paper's first figure.
+3. `generating_functions\ConstellationDists.py`, which makes the paper's second figure.
+4. `generating_functions\FormalimVsSamples.py`, which makes the paper's third figure.
+
+
 ## building the Python environment
 The Python environment is managed through [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and described in `environment.yml`.  Within an Anaconda Prompt, type `conda env create python=3.8 -f environment.yml`. This will create an environment named `covidx`. 
 
