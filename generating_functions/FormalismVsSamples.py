@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
 	## Should you compute from scratch or retrieve via
 	## serialized output from a previous run?
-	_compute = False
+	_compute = True
 
 	## SIZE DIST COMPUTATION
 	## Set up the discretization of the unit
