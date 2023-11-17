@@ -19,6 +19,7 @@ from scipy.special import gamma, gammaln, binom
 from methods.forest_sampling import random_rewiring_sampler
 
 ## For reproducability
+plt.rcParams["font.size"] = 22.
 np.random.seed(2)
 
 def axes_setup(axes):
