@@ -13,7 +13,7 @@ The main scripts are:
 7. `ForestStats.py`, which makes Figure 5c from the paper.
 
 ## November 2023 update
-We've added to this repository additional code associated with our follow-up preprint *A generating function perspective on the transmission forest*, 2023. In that paper, we use the Washington state model above as an example to illustrate the application of a formal, generating function-based approach to transmission forest calculations.
+We've added to this repository additional code associated with our follow-up preprint [*A generating function perspective on the transmission forest*](https://arxiv.org/abs/2311.16317), 2023. In that paper, we use the Washington state model above as an example to illustrate the application of a formal, generating function-based approach to transmission forest calculations.
 
 The main scripts for this second paper are
 1. `generating_functions\SampleTransmissionTrees.py`, which creates a large serialized set of sample trees for method validation.
